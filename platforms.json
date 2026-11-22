@@ -1,0 +1,42 @@
+[
+  {
+    "name": "GitHub",
+    "category": "developer",
+    "url_template": "https://github.com/{username}",
+    "exists_status": [200],
+    "not_found_status": [404],
+    "not_found_markers": ["Not Found"]
+  },
+  {
+    "name": "GitLab",
+    "category": "developer",
+    "url_template": "https://gitlab.com/{username}",
+    "exists_status": [200],
+    "not_found_status": [404],
+    "not_found_markers": ["Page Not Found"]
+  },
+  {
+    "name": "Reddit",
+    "category": "social",
+    "url_template": "https://www.reddit.com/user/{username}",
+    "exists_status": [200],
+    "not_found_status": [404],
+    "not_found_markers": ["Sorry, nobody on Reddit goes by that name"]
+  },
+  {
+    "name": "PyPI",
+    "category": "developer",
+    "url_template": "https://pypi.org/user/{username}/",
+    "exists_status": [200],
+    "not_found_status": [404],
+    "not_found_markers": ["Page Not Found"]
+  },
+  {
+    "name": "Keybase",
+    "category": "identity",
+    "url_template": "https://keybase.io/{username}",
+    "exists_status": [200],
+    "not_found_status": [404],
+    "not_found_markers": ["no user named"]
+  }
+]
